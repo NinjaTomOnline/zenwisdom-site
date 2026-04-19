@@ -1,0 +1,21 @@
+{
+  "name": "Zen Wisdom",
+  "short_name": "Zen Wisdom",
+  "description": "Daily quotes, starter meditation, and local reflection on iPhone.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f0e5",
+  "theme_color": "#4f8380",
+  "icons": [
+    {
+      "src": "assets/icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

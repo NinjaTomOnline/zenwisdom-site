@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support for Zen Wisdom, including contact details, troubleshooting notes, and the current release scope.">
+  <title>Support | Zen Wisdom</title>
+  <link rel="icon" href="assets/icon-256.png" sizes="256x256">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body class="page-inner">
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="assets/zen-mark.png" alt="">
+        <span class="brand-copy">
+          <strong>Zen Wisdom</strong>
+          <span>Quotes, meditation, and honest daily reflection</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="support.html" aria-current="page">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero page-hero">
+        <p class="eyebrow">Support</p>
+        <h1>Support for Zen Wisdom</h1>
+        <p class="lede">Questions, bug reports, and release feedback all go through the same support inbox so the app can keep improving without adding friction inside the experience.</p>
+        <div class="button-row">
+          <a class="button primary" href="mailto:hello@zenwisdom.app?subject=Zen%20Wisdom%20Support">Email Support</a>
+          <a class="button secondary" href="privacy.html">Privacy</a>
+          <a class="button secondary" href="terms.html">Terms</a>
+        </div>
+      </section>
+
+      <section class="section panel-grid">
+        <article class="info-card">
+          <p class="eyebrow">Contact</p>
+          <h2>hello@zenwisdom.app</h2>
+          <p>Use email for account-free support, bug reports, or launch questions. If you are reporting an issue, include your iPhone model, iOS version, and the screen you were using when the problem happened.</p>
+        </article>
+        <article class="info-card">
+          <p class="eyebrow">Best details to include</p>
+          <ul class="detail-list">
+            <li>What you expected to happen</li>
+            <li>What happened instead</li>
+            <li>Whether the issue affects quotes, meditation, journal, favorites, or profile settings</li>
+            <li>Any screenshots or screen recordings that make the problem easier to reproduce</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Troubleshooting</p>
+          <h2>Common things to check first</h2>
+        </div>
+        <div class="panel-grid">
+          <article class="info-card">
+            <h2>No meditation audio</h2>
+            <p>Confirm your iPhone is not muted, media volume is up, and the track is not paused. The launch build ships with a small starter audio set, so playback issues are usually local device-state problems rather than streaming errors.</p>
+          </article>
+          <article class="info-card">
+            <h2>Favorites look empty</h2>
+            <p>Favorites are stored locally on the device in the current build. If you reinstall the app or move to a different device, that local state does not automatically follow you.</p>
+          </article>
+          <article class="info-card">
+            <h2>Journal changes did not appear</h2>
+            <p>Make sure the reflection body is not empty before saving. Journal history is written locally, and each saved note should appear in the day-by-day history section right away.</p>
+          </article>
+          <article class="info-card">
+            <h2>Premium access questions</h2>
+            <p>The repo snapshot currently uses a premium scaffold and placeholder entitlement flow while live StoreKit work is pending. Support can help clarify the current release state, but full App Store billing support will arrive with the public launch.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section faq">
+        <div class="section-heading">
+          <p class="eyebrow">Current release notes</p>
+          <h2>What this build is designed to cover</h2>
+        </div>
+        <div class="faq-list">
+          <article class="faq-item">
+            <h3>Platforms</h3>
+            <p>Zen Wisdom currently targets iPhone on iOS 17 and later.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Languages</h3>
+            <p>The app is currently structured for English and Spanish.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Data model</h3>
+            <p>Journal entries, favorites, meditation progress, and appearance settings stay local to the device in the current build.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Launch status</h3>
+            <p>The hosted site is ready now, while the final public GitHub Pages repo, live App Store listing, and production StoreKit wiring are still external launch steps.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div>
+        <strong>Zen Wisdom</strong>
+        <p>Support lives in one simple inbox so the product can stay focused.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="mailto:hello@zenwisdom.app?subject=Zen%20Wisdom%20Support">hello@zenwisdom.app</a>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>

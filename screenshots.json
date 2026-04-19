@@ -1,0 +1,26 @@
+{
+  "social": {
+    "image": "screenshots/zenwisdom-social.svg",
+    "alt": "Zen Wisdom social preview with quote, meditation, and reflection visuals"
+  },
+  "gallery": [
+    {
+      "id": "zenwisdom-home",
+      "title": "Zen Wisdom home ritual",
+      "web": "screenshots/zenwisdom-home.png",
+      "alt": "Zen Wisdom home screen showing the quote of the day and quick actions"
+    },
+    {
+      "id": "zenwisdom-library",
+      "title": "Zen Wisdom quote discovery",
+      "web": "screenshots/zenwisdom-library.png",
+      "alt": "Zen Wisdom quotes library with themes, tags, and a spotlight quote"
+    },
+    {
+      "id": "zenwisdom-journal",
+      "title": "Zen Wisdom journal screen",
+      "web": "screenshots/zenwisdom-journal.png",
+      "alt": "Zen Wisdom journal screen with prompts, mood selection, and reflection editor"
+    }
+  ]
+}
