@@ -17,10 +17,22 @@
       "alt": "Zen Wisdom quotes library with themes, tags, and a spotlight quote"
     },
     {
+      "id": "zenwisdom-meditate",
+      "title": "Zen Wisdom guided sessions",
+      "web": "screenshots/zenwisdom-meditate.png",
+      "alt": "Zen Wisdom meditation screen showing guided sessions, a free track, and premium-ready session state"
+    },
+    {
       "id": "zenwisdom-journal",
       "title": "Zen Wisdom journal screen",
       "web": "screenshots/zenwisdom-journal.png",
       "alt": "Zen Wisdom journal screen with prompts, mood selection, and reflection editor"
+    },
+    {
+      "id": "zenwisdom-profile",
+      "title": "Zen Wisdom profile settings",
+      "web": "screenshots/zenwisdom-profile.png",
+      "alt": "Zen Wisdom profile screen showing saved favorites, appearance settings, and membership context"
     }
   ]
 }
