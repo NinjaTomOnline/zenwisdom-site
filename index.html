@@ -32,18 +32,18 @@
         </span>
       </a>
       <nav class="nav" aria-label="Primary">
-        <a href="index.html" aria-current="page">Home</a>
+        <a href="#features">Features</a>
+        <a href="#screenshots">Screenshots</a>
         <a href="support.html">Support</a>
         <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
+        <a href="mailto:support@zenwisdom.app?subject=Zen%20Wisdom%20Support">Contact</a>
       </nav>
     </header>
     <main>
       <section class="hero hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">iPhone meditation and reflection</p>
-          <h1>A steadier daily rhythm built from one quote, one breath, and one honest note at a time.</h1>
-          <p class="lede">Zen Wisdom is an iPhone-first reflection app centered on a quote of the day, themed quote discovery, starter guided sessions, favorites, and local journaling that stays close to you.</p>
+          <h1>Wisdom to pause. Space to reflect.</h1>
+          <p class="lede">Zen Wisdom is a calm, private space for daily quotes, guided breathing, favorites, and local journaling on your iPhone.</p>
           <div class="pill-row" aria-label="Highlights">
             <span class="pill">Quote of the Day</span>
             <span class="pill">Starter Guided Sessions</span>
@@ -51,42 +51,35 @@
             <span class="pill">Theme and Font Customization</span>
           </div>
           <div class="button-row">
-            <a class="button primary" href="support.html">Get Support</a>
+            <a class="button primary" href="#screenshots">See the App</a>
             <a class="button secondary" href="privacy.html">Read Privacy</a>
             <a class="button secondary" href="mailto:support@zenwisdom.app?subject=Zen%20Wisdom%20Support">Contact</a>
           </div>
           <p class="microcopy">Support lives at <a href="mailto:support@zenwisdom.app?subject=Zen%20Wisdom%20Support">support@zenwisdom.app</a>, with most replies arriving within 2 to 3 business days.</p>
           <p class="microcopy">App Store release in progress. The current build targets iPhone on iOS 17+, supports English and Spanish, and includes StoreKit 2 purchase and restore flows for Weekly, Annual, and Lifetime premium access.</p>
         </div>
-        <div class="hero-visual">
-          <div class="orb orb-one"></div>
-          <div class="orb orb-two"></div>
-          <div class="preview-panel preview-panel-large">
-            <p class="preview-label">Quote of the Day</p>
-            <blockquote>
-              “Peace comes from within. Do not seek it without.”
-            </blockquote>
-            <p class="preview-author">Buddha</p>
-            <div class="chip-row">
-              <span class="mini-chip">Calm</span>
-              <span class="mini-chip">Presence</span>
-            </div>
+        <div class="hero-visual hero-showcase" aria-label="Zen Wisdom app preview">
+          <div class="sun-disc" aria-hidden="true"></div>
+          <div class="ink-hill hill-one" aria-hidden="true"></div>
+          <div class="ink-hill hill-two" aria-hidden="true"></div>
+          <div class="brush-ring" aria-hidden="true"></div>
+          <div class="phone-frame hero-phone">
+            <img src="screenshots/zenwisdom-home.png" alt="Zen Wisdom iPhone home screen with a quote of the day, quick actions, and reflection prompt.">
           </div>
-          <div class="preview-panel preview-panel-small">
-            <p class="preview-label">Today&rsquo;s flow</p>
-            <ul class="mini-list">
-              <li>Browse themed quotes</li>
-              <li>Resume Breath Reset</li>
-              <li>Write a short reflection</li>
-            </ul>
+          <div class="floating-note note-quote">
+            <p class="preview-label">Today&rsquo;s ritual</p>
+            <strong>Quote. Breath. Reflection.</strong>
           </div>
-          <img class="hero-mark" src="assets/zen-mark.png" alt="">
+          <div class="floating-note note-flow">
+            <p class="preview-label">Local-first</p>
+            <span>Journal entries stay on device in the current build.</span>
+          </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="features">
         <div class="section-heading">
-          <p class="eyebrow">Built from the real app scope</p>
+          <p class="eyebrow">Designed for reflection</p>
           <h2>What Zen Wisdom already does today</h2>
           <p>The current repo snapshot ships a complete SwiftUI shell for calm daily use: curated quote browsing, local favorites, guided audio playback, reflection history, and appearance settings that persist on device.</p>
         </div>
@@ -106,9 +99,9 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section gallery-section" id="screenshots">
         <div class="section-heading">
-          <p class="eyebrow">A calm user journey</p>
+          <p class="eyebrow">Screenshots</p>
           <h2>From daily quote to deeper reflection</h2>
           <p>The site gallery follows the same flow as the app: begin at the home ritual, explore the quote library, settle into meditation or journaling, then tune the experience from Profile.</p>
         </div>
@@ -171,6 +164,25 @@
           <p class="eyebrow">Privacy</p>
           <h3>Local-first by design</h3>
           <p>Journal entries, favorites, meditation progress, and appearance settings stay on device in the current build.</p>
+        </div>
+      </section>
+
+      <section class="release-strip" aria-label="Release highlights">
+        <div>
+          <strong>Local-first</strong>
+          <span>Journal, favorites, progress, and appearance state stay on device.</span>
+        </div>
+        <div>
+          <strong>iPhone</strong>
+          <span>Built for iOS 17+ with SwiftUI and StoreKit 2 purchase flows.</span>
+        </div>
+        <div>
+          <strong>English + Spanish</strong>
+          <span>Launch copy and app structure are prepared for both locales.</span>
+        </div>
+        <div>
+          <strong>2 to 3 days</strong>
+          <span>Typical support response time through the public inbox.</span>
         </div>
       </section>
 
