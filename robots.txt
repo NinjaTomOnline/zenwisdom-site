@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ninjatomonline.github.io/zenwisdom-site/sitemap.xml
+Sitemap: https://zenwisdom.app/sitemap.xml

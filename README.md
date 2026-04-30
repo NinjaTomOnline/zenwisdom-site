@@ -8,9 +8,9 @@ Public repo URL:
 
 This template is meant to be exported from the private Zen Wisdom app repo into a separate public GitHub repo for GitHub Pages hosting.
 
-Expected GitHub Pages URL:
+Canonical site URL:
 
-`https://ninjatomonline.github.io/zenwisdom-site/`
+`https://zenwisdom.app/`
 
 The source of truth lives in the private app repo under `Release/HostedPages/`.
 
@@ -37,14 +37,15 @@ The source of truth lives in the private app repo under `Release/HostedPages/`.
 - `robots.txt`
 - `sitemap.xml`
 - `site.webmanifest`
+- `CNAME`
 - `assets/`
 - `screenshots/`
 - `.github/workflows/publish-pages.yml`
 - `.nojekyll`
 
-## Custom Domain Later
+## Custom Domain
 
-If Zen Wisdom moves from GitHub Pages to a custom domain later, update these values in the private app repo first:
+The exported public repo includes `CNAME` for `zenwisdom.app`. If the canonical host changes later, update these values in the private app repo first:
 
 - `launch-config.yml`
 - `AppStore/AppStore_Metadata_Package.md`
