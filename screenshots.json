@@ -1,14 +1,14 @@
 {
   "social": {
     "image": "screenshots/zenwisdom-social-card.png",
-    "alt": "Zen Wisdom social preview with the app icon, feature highlights, and a real iPhone home screenshot"
+    "alt": "Zen Wisdom social preview with the app icon, release highlights, and real app screenshots"
   },
   "gallery": [
     {
       "id": "zenwisdom-home",
-      "title": "Zen Wisdom home ritual",
+      "title": "Zen Wisdom daily reflection",
       "web": "screenshots/zenwisdom-home.png",
-      "alt": "Zen Wisdom home screen showing the quote of the day and quick actions"
+      "alt": "Zen Wisdom home screen showing the day’s quote and quick actions"
     },
     {
       "id": "zenwisdom-library",
@@ -20,7 +20,7 @@
       "id": "zenwisdom-meditate",
       "title": "Zen Wisdom guided sessions",
       "web": "screenshots/zenwisdom-meditate.png",
-      "alt": "Zen Wisdom meditation screen showing guided sessions, a free track, and premium-ready session state"
+      "alt": "Zen Wisdom meditation screen showing guided sessions, a free track, and premium practice programs"
     },
     {
       "id": "zenwisdom-journal",
