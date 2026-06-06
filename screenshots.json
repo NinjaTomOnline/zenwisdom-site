@@ -1,14 +1,14 @@
 {
   "social": {
-    "image": "screenshots/zenwisdom-facebook-2-06.png",
-    "alt": "Zen Wisdom social preview with the app icon, release highlights, and real app screenshots"
+    "image": "screenshots/zenwisdom-facebook-2-07.png",
+    "alt": "Zen Wisdom social preview with refreshed premium habit-loop screens and real app screenshots"
   },
   "gallery": [
     {
       "id": "zenwisdom-home",
       "title": "Zen Wisdom daily reflection",
       "web": "screenshots/zenwisdom-home.png",
-      "alt": "Zen Wisdom home screen showing the day’s quote and quick actions"
+      "alt": "Zen Wisdom home screen showing the day\u2019s quote and quick actions"
     },
     {
       "id": "zenwisdom-library",
